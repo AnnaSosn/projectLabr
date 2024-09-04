@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labro Clicker with Leaderboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game">
+        <div class="header">
+            <img src="./img/gold-coin.png" alt="coin">
+            <h2 class="score" id="score">42</h2>
+        </div>
+        <div class="circle">
+            <img id="circle" src="./img/labr1.png" alt="labrlittle">
+        </div>
+    </div>
+
+    <div id="timer">Time: 0s</div>
+
+    <div id="greeting"></div>
+
+
+    <button id="resetScoreBtn">Скинути очки</button>
+
+   
+    <table border="1" id="leaderboard">
+        <thead>
+            <tr>
+                <th>Ім'я</th>
+                <th>Очки</th>
+            </tr>
+        </thead>
+        <tbody>
+         
+        </tbody>
+    </table>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
